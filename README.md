@@ -44,7 +44,7 @@ cd themes
 git clone https://github.com/Fastbyte01/KeepIt.git
 ```
 
-Next, open config.toml in the base of the Hugo site and ensure the theme option is set to mainroad:
+Next, open config.toml in the base of the Hugo site and ensure the theme option is set to KeepIt:
 ```bash
 theme = "KeepIt"
 ```
