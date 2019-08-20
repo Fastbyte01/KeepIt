@@ -175,3 +175,7 @@ clientSecret = ""
   avatar = 'mm'
   placeholder = 'your comments ...'
   visitor = true
+
+[params.utterances]       # https://utteranc.es/
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
