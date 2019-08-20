@@ -160,7 +160,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
     width = 800
     height = 600
 
-[params.gitalk]           
+[params.gitalk]
 owner = ""              
 repo = ""               
 clientId = ""           
@@ -179,3 +179,4 @@ clientSecret = ""
 [params.utterances]       # https://utteranc.es/
     owner = ""              # Your GitHub ID
     repo = ""               # The repo to store comments
+
