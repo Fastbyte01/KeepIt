@@ -38,7 +38,7 @@
         {{ end }}
         <!-- end featured_image-->
      
-          {{ $reAltIn := "<img src=\"([^\"]+)\" alt=\"([^\"]+)?\" />" }}
+          {{ $reAltIn := "<img src=\"([^\"]+)\" alt=\"([^\"]+)?\">" }}
           {{ $reAltOut :=  ( printf "<figure><img src=\"/images/ring.svg\" data-sizes=\"auto\" data-src=\"%s$1\" alt=\"$2\" class=\"lazyload\"><figcaption class=\"image-caption\">$2</figcaption></figure>" $cdn_url ) }}
           {{ $altContent := .Content | replaceRE $reAltIn $reAltOut | safeHTML }}
 
