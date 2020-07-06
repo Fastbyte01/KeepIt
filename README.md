@@ -1,7 +1,7 @@
 KeepIt Hugo Theme
 ========================
 
-KeepIt is a clean, elegant, simple but not simpler blog theme for Hugo based on the original [LeaveIt Theme](https://raw.githubusercontent.com/liuzc/LeaveIt/) developed by [LiuZhichao](https://raw.githubusercontent.com/liuzc/).
+KeepIt is a clean, elegant, simple but not simpler blog theme for Hugo based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) developed by [LiuZhichao](https://github.com/liuzc).
 
 ![hugo-theme-KeepIt](https://github.com/Fastbyte01/KeepIt/blob/master/images/screenshot.png)
 
