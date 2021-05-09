@@ -45,7 +45,8 @@ disqusShortname = "yourdiscussshortname"
     subtitle = "A Hugo theme"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
-
+    dateFormatToUse = "" # set date format, default "2 January 2006"
+    
     google_verification = ""
     bing_verification = ""
     yandex_verification = ""
