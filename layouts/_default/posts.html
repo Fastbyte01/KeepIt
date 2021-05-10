@@ -9,7 +9,7 @@
     <article class="archive-item">
         <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title }}</a>
         <span class="archive-item-date">
-            {{ .Date.Format "2 January 2006" }}
+            {{ .Date.Format (.Site.Params.dateFormatToUse | default "2 January 2006") }}
         </span>
     </article>
     {{ end }} {{ end }}
