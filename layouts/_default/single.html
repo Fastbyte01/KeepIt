@@ -18,8 +18,7 @@
                           <a href="{{ .Permalink }}"> {{ $name }} </a>
                         {{ end -}}
                         {{ end }}
-                </span>
-                {{- end }}
+                </span> {{- end }}
                 <i class="iconfont icon-timer"></i>
                 {{.ReadingTime }} min
         </div>
@@ -61,9 +60,9 @@
                     <span>{{ i18n "Words" }}:</span>
                    <span>{{ .WordCount }}</span>
             </p>
-            
+
             <p class="copyright-item">
-                {{ if and ( $.Param "socialShare" ) (gt (len ($.Param "share")) 0) }}
+                {{ if and ( $.Site.Params.socialShare ) (gt (len ($.Site.Params.share)) 0) }}
                 <span>{{ i18n "Share" }}:</span>
                 <span>{{ partial "share-links.html" . }}</span>
                 {{ end }}
