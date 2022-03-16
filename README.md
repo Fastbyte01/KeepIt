@@ -13,6 +13,7 @@ People that are using **KeepIt**:
 * [PapEr](https://page.codespaper.com)
 * [SilkeHenderickx](http://www.silkehenderickx.be)
 * [jmickey](https://mickey.dev/)
+* [ssaraf](https://ssaraf.com/)
 
 # Features
 
