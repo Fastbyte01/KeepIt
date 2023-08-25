@@ -1,9 +1,10 @@
 <div class="intro">
     {{ $cdn_url := .Scratch.Get "cdn_url" }}
+    {{ $default_page := .Site.Params.DefaultPage }}
     {{ with .Site.Params.avatar}}
     {{ $avatar := .}}
    <div class="avatar">
-        <a href="{{ .Site.Params.DefaultPage }}"> <img src="{{ (printf "%s%s" $cdn_url $avatar)}}"> </a>
+        <a href="{{ $default_page }}"> <img src="{{ (printf "%s%s" $cdn_url $avatar)}}"> </a>
     </div>
     {{ end }}
     {{ if or .Params.gravatar.Email (and .Site.Params.gravatar.Email (ne .Params.gravatar.Email false)) }}
