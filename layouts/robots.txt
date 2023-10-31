@@ -54,8 +54,6 @@ Disallow: /
 # Block pricepi
 User-agent: pimonster
 Disallow: /
-User-agent: Pimonster
-Disallow: /
 
 User-agent: SurdotlyBot
 Disallow: /
@@ -63,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: {{ "sitemap.xml" | absLangURL }}
+Sitemap: {{ "/sitemap.xml" | absLangURL }}

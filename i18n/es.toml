@@ -1,70 +1,199 @@
 # Translations for Spanish
+# Traducciones para español
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
-# Single.html
+# === baseof ==
+[backToTop]
+other = "Volver arriba"
 
-[Written]
-other = "Escrito"
+[viewComments]
+other = "Ver comentarios"
+# === baseof ==
 
-[by]
-other = "por"
+# === Post ===
+[posts]
+other = "Artículos"
+# === Post ===
 
-[with]
-other = "con"
+# === Taxonomy ===
+[allSome]
+other = "Todo {{ .Some }}"
 
-[on]
-other = "en"
-
-[in]
-other = "en"
-
-[Author]
-other = "Autor"
-
-[Words]
-other = "Palabras"
-
-[Tag]
+[tag]
 other = "Etiqueta"
 
-[Home]
-other = "Casa"
+[tags]
+other = "Etiquetas"
+
+[category]
+other = "Categoría"
+
+[categories]
+other = "Categorías"
+# === Taxonomy ===
+
+# === Pagination ===
+[more]
+other = "Más"
+# === Pagination ===
+
+# === partials/header.html ===
+[selectLanguage]
+other = "Selecciona el lenguage"
+
+[switchTheme]
+other = "Cambia el tema"
+# === partials/header.html ===
+
+# === partials/footer.html ===
+[poweredBySome]
+other = "Provisto por {{ .Hugo }} | Tema - {{ .Theme }}"
+# === partials/footer.html ===
+
+# === partials/comment.html ===
+[valineLang]
+other = "en"
+
+[valinePlaceholder]
+other = "Tu comentario ..."
+
+[facebookLanguageCode]
+other = "es_MX"
+# === partials/comment.html ===
+
+# === partials/assets.html ===
+[search]
+other = "Buscar"
+
+[searchPlaceholder]
+other = "Busca títulos o contenido..."
+
+[clear]
+other = "Limpiar"
+
+[cancel]
+other = "Cancelar"
+
+[noResultsFound]
+other = "No se encontraron resultados"
+
+[lunrLanguageCode]
+other = "es"
+
+[lunrLanguageLib]
+other = "lib/lunr/lunr.es.js"
+
+[copyToClipboard]
+other = "Copiar al portapapeles"
+
+[cookieconsentMessage]
+other = "Este sitio web utiliza Cookies para mejorar su experiencia."
+
+[cookieconsentDismiss]
+other = "De acuerdo"
+
+[cookieconsentLink]
+other = "Aprende más"
+# === partials/assets.html ===
+
+# === partials/plugin/share.html ===
+[shareOn]
+other = "Compartir en"
+# === partials/plugin/share.html ===
+
+# === posts/single.html ===
+[contents]
+other = "Contenido"
+
+[publishedOnDate]
+other = "publicado el {{ .Date }}"
+
+[includedInCategories]
+other = "incluido en {{ .Categories }}"
+
+[wordCount]
+one = "Una palabra"
+other = "{{ .Count }} palabras"
+
+[readingTime]
+one = "Un minuto"
+other = "{{ .Count }} minutos"
+
+[views]
+other = "vistas"
+
+[author]
+other = "Autor"
+
+[updatedOnDate]
+other = "Actualizado el {{ .Date }}"
+
+[readMarkdown]
+other = "Leer Markdown"
 
 [back]
-other = "Atrás"
+other = "Regresar"
 
-[minute]
-other = "minuto"
+[home]
+other = "Inicio"
 
-[Share]
-other = "Compartir"
+[readMore]
+other = "Leer más"
+# === posts/single.html ===
 
-# 404.html
+# === 404.html ===
+[pageNotFound]
+other = "Página no encontrada"
 
-[page]
-other = "página"
+[pageNotFoundText]
+other = "La página que estás buscando no existe. Lo siento."
+# === 404.html ===
 
-[not]
-other = "no"
+# === shortcodes/admonition.html ===
+[note]
+other = "Nota"
 
-[found]
-other = "encontrada"
+[abstract]
+other = "Resumen"
 
-[return]
-other = "Volver"
+[info]
+other = "Información"
 
-[to]
-other = "a"
+[tip]
+other = "Consejo"
 
-# Pagination
+[success]
+other = "Éxito"
 
-[More]
-other = "Más"
+[question]
+other = "Pregunta"
 
-# Related post
+[warning]
+other = "Advertencia"
 
-[Related]
-other = "Artículos"
+[failure]
+other = "Fallo"
 
-[Articles]
-other = "Similares"
+[danger]
+other = "Peligro"
+
+[bug]
+other = "Error"
+
+[example]
+other = "Ejemplo"
+
+[quote]
+other = "Cita"
+# === shortcodes/admonition.html ===
+
+# === shortcodes/version.html ===
+[new]
+other = "NUEVO"
+
+[changed]
+other = "MODIFICADO"
+
+[deleted]
+other = "ELIMINADO"
+# === shortcodes/version.html ===

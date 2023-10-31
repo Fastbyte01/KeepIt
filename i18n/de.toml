@@ -1,70 +1,199 @@
 # Translations for German
+# Übersetzung auf Deutsch
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
-# Single.html
+# === baseof ==
+[backToTop]
+other = "Nach oben"
 
-[Written]
-other = "Geschrieben"
+[viewComments]
+other = "Kommentare anzeigen"
+# === baseof ==
 
-[by]
-other = "durch"
+# === Post ===
+[posts]
+other = "Artikel"
+# === Post ===
 
-[with]
-other = "mit"
+# === Taxonomy ===
+[allSome]
+other = "Alle {{ .Some }}"
 
-[on]
-other = "auf"
+[tag]
+other = "Tag"
 
-[in]
-other = "im"
+[tags]
+other = "Tags"
 
-[Author]
+[category]
+other = "Kategorie"
+
+[categories]
+other = "Kategorien"
+# === Taxonomy ===
+
+# === Pagination ===
+[more]
+other = "Mehr"
+# === Pagination ===
+
+# === partials/header.html ===
+[selectLanguage]
+other = "Sprache wählen"
+
+[switchTheme]
+other = "Darstellung ändern"
+# === partials/header.html ===
+
+# === partials/footer.html ===
+[poweredBySome]
+other = "Realisiert durch {{ .Hugo }} | Thema - {{ .Theme }}"
+# === partials/footer.html ===
+
+# === partials/comment.html ===
+[valineLang]
+other = "en"
+
+[valinePlaceholder]
+other = "Ihr Kommentar ..."
+
+[facebookLanguageCode]
+other = "de_DE"
+# === partials/comment.html ===
+
+# === partials/assets.html ===
+[search]
+other = "Suche"
+
+[searchPlaceholder]
+other = "Suche nach Titel und Inhalt..."
+
+[clear]
+other = "Leeren"
+
+[cancel]
+other = "Abbrechen"
+
+[noResultsFound]
+other = "Keine Ergebnisse gefunden"
+
+[lunrLanguageCode]
+other = "de"
+
+[lunrLanguageLib]
+other = "lib/lunr/lunr.de.js"
+
+[copyToClipboard]
+other = "In Zwischenablage kopieren"
+
+[cookieconsentMessage]
+other = "Diese Website verwendet Cookies, um Ihre Erfahrung zu verbessern."
+
+[cookieconsentDismiss]
+other = "Zustimmen"
+
+[cookieconsentLink]
+other = "Erfahren Sie mehr"
+# === partials/assets.html ===
+
+# === partials/plugin/share.html ===
+[shareOn]
+other = "Teilen auf"
+# === partials/plugin/share.html ===
+
+# === posts/single.html ===
+[contents]
+other = "Inhalt"
+
+[publishedOnDate]
+other = "veröffentlicht an {{ .Date }}"
+
+[includedInCategories]
+other = "enthalten in {{ .Categories }}"
+
+[wordCount]
+one = "Ein Wort"
+other = "{{ .Count }} Wörter"
+
+[readingTime]
+one = "Eine Minute"
+other = "{{ .Count }} Minuten"
+
+[views]
+other = "Aufrufe"
+
+[author]
 other = "Autor"
 
-[Words]
-other = "Wörter"
+[updatedOnDate]
+other = "Aktualisiert am {{ .Date }}"
 
-[Tag]
-other = "Etikett"
-
-[Home]
-other = "Hause"
+[readMarkdown]
+other = "Markdown anzeigen"
 
 [back]
 other = "Zurück"
 
-[minute]
-other = "minute"
+[home]
+other = "Startseite"
 
-[Share]
-other = "Aktie"
+[readMore]
+other = "Mehr lesen"
+# === posts/single.html ===
 
-# 404.html
+# === 404.html ===
+[pageNotFound]
+other = "Seite nicht gefunden"
 
-[page]
-other = "Seite"
+[pageNotFoundText]
+other = "Leider konnte die von Ihnen angeforderte Seite nicht aufgerufen werden."
+# === 404.html ===
 
-[not]
-other = "nicht"
+# === shortcodes/admonition.html ===
+[note]
+other = "Notiz"
 
-[found]
-other = "gefunden"
+[abstract]
+other = "Kurzfassung"
 
-[return]
-other = "Zurückkommen"
+[info]
+other = "Info"
 
-[to]
-other = "zu"
+[tip]
+other = "Tipp"
 
-# Pagination
+[success]
+other = "Erfolg"
 
-[More]
-other = "Mehr"
+[question]
+other = "Frage"
 
-# Related post
+[warning]
+other = "Warnung"
 
-[Related]
-other = "Ähnliche"
+[failure]
+other = "Fehler"
 
-[Articles]
-other = "Artikel"
+[danger]
+other = "Vorsicht"
+
+[bug]
+other = "Bug"
+
+[example]
+other = "Beispiel"
+
+[quote]
+other = "Zitat"
+# === shortcodes/admonition.html ===
+
+# === shortcodes/version.html ===
+[new]
+other = "NEU"
+
+[changed]
+other = "GEÄNDERT"
+
+[deleted]
+other = "GELÖSCHT"
+# === shortcodes/version.html ===
