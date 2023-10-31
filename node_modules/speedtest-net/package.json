@@ -1,0 +1,30 @@
+{
+  "name": "speedtest-net",
+  "description": "Speedtest.net client",
+  "author": "DDSol",
+  "version": "1.6.2",
+  "scripts": {
+    "test": "node test/test"
+  },
+  "bin": "bin/index.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddsol/speedtest.net.git"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "draftlog": "^1.0.12",
+    "xml2js": "^0.4.4",
+    "http-proxy-agent": "^2.0.0",
+    "https-proxy-agent": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0"
+  },
+  "license": "MIT",
+  "files": [
+    "bin/index.js",
+    "index.js"
+  ]
+}
