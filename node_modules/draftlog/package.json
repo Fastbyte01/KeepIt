@@ -1,0 +1,32 @@
+{
+  "name": "draftlog",
+  "version": "1.0.13",
+  "description": "Create updatable log lines into the terminal, and give life to your logs!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanseidel/node-draftlog.git"
+  },
+  "keywords": [
+    "logging",
+    "console",
+    "log",
+    "terminal",
+    "logger",
+    "ui",
+    "post",
+    "after"
+  ],
+  "author": "Ivan Seidel Gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanseidel/node-draftlog/issues"
+  },
+  "homepage": "https://github.com/ivanseidel/node-draftlog#readme",
+  "devDependencies": {
+    "chalk": "^1.1.3"
+  }
+}

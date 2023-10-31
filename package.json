@@ -38,5 +38,6 @@
   "bugs": {
     "url": "https://github.com/Fastbyte01/KeepIt/issues"
   },
-  "homepage": "https://github.com/Fastbyte01/KeepIt#readme"
+  "homepage": "https://github.com/Fastbyte01/KeepIt#readme",
+  "main": "index.js"
 }
