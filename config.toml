@@ -3,6 +3,36 @@
     extended = true
     min = "0.62.0"
 
+    # Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+
 [params]
   # site default theme ["auto", "light", "dark"]
   defaultTheme = "auto"
@@ -14,9 +44,9 @@
   # date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  title = "My cool site"
+  title = "KeepIt"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "This is my cool site"
+  description = "This is my KeepIt site"
   # website images for Open Graph and Twitter Cards
   images = []
 
@@ -31,7 +61,7 @@
       # URL of the LOGO
       logo = ""
       # title name
-      name = "My cool site"
+      name = "My KeepIt site"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -78,7 +108,7 @@
   # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "My cool site"
+    title = "My KeepIt site"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -120,13 +150,13 @@
     [params.home.profile]
       enable = true
       # Gravatar Email for preferred avatar in home page
-      gravatarEmail = ""
+      gravatarEmail = "mathias.hansen@example.com"
       # URL of avatar shown in home page
       avatarURL = ""
       # title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
-      subtitle = "This is my cool site"
+      subtitle = "This is my KeepIt site"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
