@@ -148,7 +148,7 @@ Example `tweet` input:
 
 The rendered output looks like this:
 
-{{< tweet id="917359331535966209" user+"Fastbyte01" >}}
+{{< tweet id="917359331535966209" user="Fastbyte01" >}}
 
 ## 8 vimeo
 
