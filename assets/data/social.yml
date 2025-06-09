@@ -509,3 +509,13 @@ rss:
   Newtab: true
   Icon:
     Class: fas fa-rss fa-fw
+
+# 065: Bluesky
+bluesky:
+  Weight: 65
+  Template: https://%v.bsky.social
+  Title: Bluesky
+  Newtab: true
+  Icon:
+    Simpleicons: bluesky
+
