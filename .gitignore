@@ -13,3 +13,5 @@ $RECYCLE.BIN/
 
 # Linux 
 .directory
+
+node_modules/    
