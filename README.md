@@ -124,6 +124,19 @@ Build Documentation Locally:
 hugo server --source=exampleSite
 ```
 
+## Install dependencies and build assets
+
+This theme relies on JavaScript assets that need to be compiled before Hugo can
+use them. From the theme directory run:
+
+```bash
+npm install
+npm run build       # or `npm run start` for a live server
+```
+
+These commands generate `assets/js/theme.js` and other resources consumed by
+Hugo.
+
 ## Multilingual and i18n
 
 KeepIt supports the following languages:
