@@ -30,6 +30,12 @@ class Util {
     if (!reserved) element.addEventListener('animationend', handler, false);
   }
 
+  escapeHTML(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
 }
 
 class Theme {
@@ -319,10 +325,18 @@ class Theme {
             title,
             date,
             context
-          }) => `<div><span class="suggestion-title">${title}</span><span class="suggestion-date">${date}</span></div><div class="suggestion-context">${context}</div>`,
+          }, {
+            query
+          }) => {
+            const safeQuery = this.util.escapeHTML(query);
+            return `<div data-query="${safeQuery}"><span class="suggestion-title">${title}</span><span class="suggestion-date">${date}</span></div><div class="suggestion-context">${context}</div>`;
+          },
           empty: ({
             query
-          }) => `<div class="search-empty">${searchConfig.noResultsFound}: <span class="search-query">"${query}"</span></div>`,
+          }) => {
+            const safeQuery = this.util.escapeHTML(query);
+            return `<div class="search-empty">${searchConfig.noResultsFound}: <span class="search-query">"${safeQuery}"</span></div>`;
+          },
           footer: ({}) => {
             const {
               searchType,
