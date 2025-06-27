@@ -14,4 +14,6 @@ $RECYCLE.BIN/
 # Linux 
 .directory
 
+# Hugo default output directory
+
 node_modules/    
